@@ -1,0 +1,12 @@
+# Crie um banco de dados chamado callcenter(ou outro de sua preferência, porém é necessario mudar no arquivo lib/conexao.php); 
+# Crie também uma tabela com o comando abaixo:
+
+create table operadores (
+    matricula int NOT NULL,
+    numberRamal int NOT NULL,
+    agenteName varchar(20),
+    IP varchar(13),
+    statusRamal varchar(30) NOT NULL,
+    conectado BOOLEAN NOT NULL,
+    PRIMARY KEY(matricula)
+);

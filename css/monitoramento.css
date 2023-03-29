@@ -1,0 +1,99 @@
+.cartao {
+    width: 280px;
+    height: 215px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #afafaf;
+    box-shadow: 0px 0px 6px 0px #b1b0b0;
+    float: left;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.statusPrint{
+    font-size: 0.7em;
+}
+
+.infoCalls{
+    text-align: left;
+    border-radius: 5px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: end;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 350;
+}
+
+.titulosInfo {
+    font-size: 1.3em;
+    text-transform:capitalize;
+}
+
+.indisponivelcontainer {
+    background-color: rgb(179, 179, 179);
+    color:#fff;
+}
+
+.indisponivel {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #494949;
+}
+
+.pausa{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fd821e;
+    box-shadow: 0px 0px 6px 0px #fd821e;
+}
+
+.ocupado {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    box-shadow: 0px 0px 6px 0px #ff0000;
+}
+
+.chamando {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    box-shadow: 0px 0px 6px 0px #ff0000;
+    animation: piscar 1s linear infinite;
+}
+
+@keyframes piscar {
+    50% {
+        opacity: 0;
+    }
+}
+
+.disponivel {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #04ea04;
+}
+
+.icone-posicao {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
