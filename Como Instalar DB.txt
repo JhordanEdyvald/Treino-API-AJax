@@ -7,6 +7,5 @@ create table operadores (
     agenteName varchar(20),
     IP varchar(13),
     statusRamal varchar(30) NOT NULL,
-    conectado BOOLEAN NOT NULL,
-    PRIMARY KEY(matricula)
+    conectado BOOLEAN NOT NULL
 );

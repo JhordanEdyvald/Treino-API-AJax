@@ -122,3 +122,9 @@ class ramais {
         return $info_ligacoes_dados;
     }
 }
+
+//PARA TESTE
+/*
+$teste = new ramais(file('ramais'), file('filas'));
+echo json_encode($teste->pegarStatusInfo());
+*/
